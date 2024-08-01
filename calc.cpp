@@ -132,7 +132,7 @@ std::vector<std::string> infix_to_postfix(const std::string& infix_exp) {
                 if (!operators.empty()) operators.pop(); // Pop the opening bracket
             } else {
                 std::cerr << "Error: unexpected token '" << token << "'" << std::endl;
-                return {}; // or handle error as appropriate
+                return {}; 
             }
         }
     }
